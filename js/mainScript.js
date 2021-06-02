@@ -1,9 +1,9 @@
 /* ===== DOC PERSONAL =====
-    CHRISTOPHER VEGA MENDEZ 🐊 
+    CHRISTOPHER VEGA MENDEZ 🐊
             4AVPR
           SUB. DAEC
-        PROYECTO FINAL   
-          31/05/2021
+        PROYECTO FINAL
+    31/05/2021 - 02/05/2021 
      ===== END DOC ===== */
 
 // ===== MOUSE UP/DOWN FUNCTIONS ===== //
@@ -37,14 +37,14 @@ function imgDblClick(item_id){
 }
 
 function popUpContentLoad(item_id){
-    if (item_id == "img1"){
-        var img_info = "Foto de un mapache";
-    }else if(item_id == "img2"){
-        var img_info = "Foto de un cocodrilo";
-    }
-
+    if (item_id == "img1"){ var img_info = "Foto de un mapache 🦝"; }
+    else if (item_id == "img2") { var img_info = "Foto de un cocodrilo 🐊"; }
+    else if (item_id == "img3") { var img_info = "Foto de un pinguino 🐧"; }
+    else if (item_id == "img4") { var img_info = "Foto de un conejo 🐇"; }
+    else if (item_id == "img5") { var img_info = "Foto de un Delfín 🐬"; }
+    else if (item_id == "img6") { var img_info = "Foto de un Puercoespin 🦔"; }
+    else { var img_info = "No encontramos una imagen con esa ID :("; }
     document.getElementById("img_info").innerHTML = img_info;
-
 }
 
 function btnClickClose(item_id){

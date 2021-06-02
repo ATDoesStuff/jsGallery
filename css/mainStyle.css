@@ -1,9 +1,9 @@
 /* ===== DOC PERSONAL =====
-    CHRISTOPHER VEGA MENDEZ 🐊 
+    CHRISTOPHER VEGA MENDEZ 🐊
             4AVPR
           SUB. DAEC
-        PROYECTO FINAL   
-          31/05/2021
+        PROYECTO FINAL
+    31/05/2021 - 02/05/2021 
      ===== END DOC ===== */
 
 :root{
@@ -24,14 +24,12 @@ body{
 header{
     background-color: var(--budGreen);
     margin: 0;
-    color: white;
     padding: 1rem;
 }h1, h2{
     margin: 0;
 }.header2{
     background-color: var(--shinyShamrock);
     margin: 0;
-    color: white;
     padding: 0.5rem;
     margin-bottom: 2rem;
 }.shadow{
@@ -43,6 +41,7 @@ header{
 /* ===== MAIN ===== */
 body{
     background-color: var(--charcoal);
+    color: white;
 }section{
     background-color: var(--gunMetal);
     width: 70%;
@@ -54,26 +53,21 @@ body{
 
 /* ===== END MAIN ===== */
 
+/* ===== IMAGES CLASSES ===== */
 img{
     height: 150px;
     width: 256px;
     margin: 1rem;
     text-align: center;
-}
-.zoom
-{
-    transition: transform .1s; /* Animation */
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-
-    height: 200px;
-    width: 306px;
-    margin: 0 auto;
-}
-
-/* ===== IMAGES MAIN CLASS ===== */
-.totoIMG{
+}.totoIMG{
     border-radius: 2.5% 2.5% 2.5% 2.5%;
     border: 3px inset;
+}.zoom{
+    transition: transform .1s; /* Animation */
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    height: 200px;
+    width: 348px;
+    margin: 0 auto;
 }
 /* ===== END IMAGES CLASS ===== */
 
@@ -93,8 +87,7 @@ img{
 }
 /* ===== END BORDER COLOR ===== */
 
-
-
+/* ===== POPUP CSS CODE ===== */
 .popUp {
     display: none;
     position: fixed;
@@ -107,18 +100,15 @@ img{
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
-}
-
-.popUp-content {
+}.popUp-content {
     background-color: var(--charcoal);
-    color: white;
     border: 3px outset white;
     border-radius: 10px 10px 10px 10px;
-
     margin: auto;
     padding: 20px;
-    width: 62.5%;
-}.closeBtn{
+    width: 68%;
+}
+.closeBtn{
     padding: 5px;
     background-color: white;
     color: var(--gunMetal);
@@ -129,3 +119,16 @@ img{
 }.closeBtn:active{
     border: 3px inset var(--celticBlue);
 }
+/* ===== END POPUP CSS ===== */
+
+/* ===== START FOOTER ===== */
+footer{
+    background-color: var(--budGreen);
+}footer p{
+    margin: 0;
+    margin-top: 2rem;
+    padding: 7px;
+    text-decoration: underline;
+}
+
+/* ===== END FOOTER ===== */
