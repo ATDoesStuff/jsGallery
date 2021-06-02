@@ -38,9 +38,9 @@ function imgDblClick(item_id){
 
 function popUpContentLoad(item_id){
     if (item_id == "img1"){
-        var img_info = "info for image 1";
+        var img_info = "Foto de un mapache";
     }else if(item_id == "img2"){
-        var img_info = "info for image 2";
+        var img_info = "Foto de un cocodrilo";
     }
 
     document.getElementById("img_info").innerHTML = img_info;
