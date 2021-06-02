@@ -120,15 +120,3 @@ img{
     border: 3px inset var(--celticBlue);
 }
 /* ===== END POPUP CSS ===== */
-
-/* ===== START FOOTER ===== */
-footer{
-    background-color: var(--budGreen);
-}footer p{
-    margin: 0;
-    margin-top: 2rem;
-    padding: 7px;
-    text-decoration: underline;
-}
-
-/* ===== END FOOTER ===== */
