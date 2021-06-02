@@ -1,0 +1,66 @@
+<!-- ===== DOC PERSONAL =====
+    CHRISTOPHER VEGA MENDEZ 🐊 
+            4AVPR
+          SUB. DAEC
+        PROYECTO FINAL   
+          31/05/2021
+     ===== END DOC ===== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
+
+    <!-- ===== FUENTES ===== -->
+    <!-- NUNITO -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+
+    <!-- ===== END STYLSHEETS ===== -->
+
+    <title>🐊 GALERIA CON JS! 🐊</title>
+</head>
+<body>
+    <header>
+        <h1>🐊 GALERIA CON JS! 🐊</h1>
+    </header>
+    <div class="header2 shadow">
+        <h2>Por Christopher Vega Mendez</h2>
+    </div>
+    <section>
+
+            <img src="https://pm1.narvii.com/6705/12b7c2751eea87dfb3627546e0b56c7c0a22af81_hq.jpg" alt="totodile" id="img1"
+            class="totoIMG borderColor0" onmousedown="mouseDown(this.id)" onmouseup="mouseUp(this.id)" 
+            onmouseover="mouseOver(this.id)" onmouseout="mouseOff(this.id)" ondblclick="imgDblClick(this.id)"/>
+
+            <img src="https://pm1.narvii.com/6705/12b7c2751eea87dfb3627546e0b56c7c0a22af81_hq.jpg" alt="totodile" id="img2"
+            class="totoIMG borderColor0" onmousedown="mouseDown(this.id)" onmouseup="mouseUp(this.id)" 
+            onmouseover="mouseOver(this.id)" onmouseout="mouseOff(this.id)" ondblclick="imgDblClick(this.id)"/>
+        
+    </section>
+
+    <!-- ===== 🐊 POP UPS 🐊 ===== -->
+    <div id="img_popUp" class="popUp">
+        <div class="popUp-content" id="popUp-content">
+
+            <h4>Image Info:</h4>
+            <p id="img_info"></p>
+            <p id="img_date"></p>
+
+            <button id="btnHideDiv" class="closeBtn" onclick="btnClickClose(this.id)">Cerrar PopUp</button>
+        </div>
+    </div>
+    <!-- ===== END POP UPS ===== -->
+
+    <!-- ===== SCRIPTS ===== -->
+    <!-- For some reason it just wont cooperate if i put it on head, even tho it works on head just fine on literally
+    any other proyect but its fine i guess -->
+    <script src="js/mainScript.js"></script>
+    <!-- ===== END SCRIPTS ===== -->
+</body>
+</html>
