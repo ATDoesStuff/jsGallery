@@ -18,8 +18,7 @@ function mouseUp(item_id){
 
 // ===== MOUSE HOVER FUNCTIONS ===== //
 function mouseOver(item_id){
-    document.getElementById(item_id).classList.add('borderColor0');
-    document.getElementById(item_id).classList.remove('borderColor1'); 
+    document.getElementById(item_id).style.border = "1px solid red"
 };
 
 function mouseOff(item_id){
